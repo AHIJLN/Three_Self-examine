@@ -169,7 +169,7 @@ def call_deepseek_api(prompt):
         'Authorization': f'Bearer {DEEPSEEK_API_KEY}'
     }
     data = {
-        "model": "deepseek-r1",
+        "model": "ep-20250218210050-425rf",
         "messages": [
             {"role": "user", "content": prompt}
         ],
