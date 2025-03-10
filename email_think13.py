@@ -25,7 +25,7 @@ TRASH_FOLDER = '"Deleted Messages"'
 ALTERNATE_TRASH = '"Trash"'
 
 # Deepseek R1 API 配置（根据实际接口文档修改）
-DEEPSEEK_API_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
+DEEPSEEK_API_URL = 'https://ark.cn-beijing.volces.com/api/v3/chat/completions'
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY')
 if not DEEPSEEK_API_KEY:
     DEEPSEEK_API_KEY = "你的DeepseekAPIkey"
