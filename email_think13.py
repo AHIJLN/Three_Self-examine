@@ -389,7 +389,7 @@ def main():
         mail.select('INBOX')
 
         print("检查今日邮件...")
-        emails = fetch_emails_in_time_range_uid(mail, start_hour=8, end_hour=22)
+        emails = fetch_emails_in_time_range_uid(mail, start_hour=8, end_hour=13)
 
         if not emails:
             print("没有找到今日邮件")
